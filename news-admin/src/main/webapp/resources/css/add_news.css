@@ -1,0 +1,26 @@
+input[type=text] {
+    float: left;
+    size : 100;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.inputTitle {
+    clear:both;
+    float: left;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+textarea {
+    float: left;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.saveButtom {
+    clear: both;
+    float:right;
+    margin-top: 30px;
+    margin-right: 30px;
+}

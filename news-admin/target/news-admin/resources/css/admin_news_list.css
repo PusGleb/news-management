@@ -1,0 +1,246 @@
+.headerWrapper {
+	float:left;
+    border: 4px solid #B3B3B3;
+    width: 100%;
+ }
+
+.title{
+    float:left;
+    margin-left: 40px;
+    color:#CD5C5C;
+
+}
+
+.locale {
+    font-family: Verdana;
+    font-weight: 400;
+    float:right;
+    margin-right: 8px;
+}
+
+.localeWrapper {
+	float:right;
+	margin-right: 40px;
+	margin-top: 40px;
+}
+
+.bodyWrapper {
+	float:top;
+	font-family: Verdana;
+	font-weight: normal;
+	border-left: 4px solid #B3B3B3;
+    border-right: 4px solid #B3B3B3;
+    border-bottom: 4px solid #B3B3B3;
+    border-top: 1px solid #B3B3B3;
+    clear: both;
+    width: 100%;
+    height: 150%;
+}
+
+.innerWrapper {
+	float:left;
+	font-family: Verdana;
+	font-weight: normal;
+	padding: 20px;
+	margin-right: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    border: 2px solid #DCDCDC;
+    width: 78%;
+    height: 92%;
+    position: relative;
+}
+
+.formWrapper {
+    float:left;
+	margin-left: 30%;
+}
+
+form {
+	float:left;
+}
+
+input[type=submit] {
+    padding:1px 20px;
+    background:#F5F5F5;
+    border: 2px outset #ddd;
+    cursor:pointer;
+    font-size:14px;
+    margin-left: 5px;
+}
+
+input[type=submit].delete {
+    padding:10px 30px;
+    background:#F5F5F5;
+    border: 2px outset #ddd;
+    cursor:pointer;
+    font-size:15px;
+    margin-left: 5px;
+}
+
+select {
+	width: 200px;
+	height: 25px;
+	font-size: 15;
+}
+
+.newsTitle {
+	clear:both;
+	float:left;
+	width:70%;
+    color:#292323;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size:20px;
+    font-weight:600;
+}
+
+.author {
+	float:left;
+    margin-left: 40px;
+    color:#292323;
+    margin-top: 30px;
+}
+
+.data {
+	float:right;
+	margin-right: 20px;
+    color:#292323;
+    margin-top: 30px;
+    font-size:20px;
+}
+
+.shortText {
+	clear:both;
+	float:left;
+	margin-right: 20px;
+    color:#292323;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.comments {
+    float:right;
+    margin-right: 70px;
+    color:#F20F0F;
+    font-size:18px;
+}
+
+.view {
+    float:right;
+    margin-right: 50px;
+    color:#FFD700;
+    margin-bottom: 20px;
+    font-size:18px;
+    font-family:Georgia;
+}
+
+.tags {
+    float:right;
+    margin-right: 40px;
+    color:#ABA6A6;
+    font-size:18px;
+}
+
+
+.paginationWrapper {
+	clear:both;
+    float:bottom;
+    background: #F7F7F7;
+    width: 97%;
+    height: 100px;
+    bottom: 15px;
+    position: absolute;
+}
+
+.pagination-container {
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+ul.pagination li a.active {
+    background-color: #B0ABAB;
+    color: white;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+.footer {
+	float:top;
+	border-left: 4px solid #B3B3B3;
+    border-right: 4px solid #B3B3B3;
+    border-bottom: 4px solid #B3B3B3;
+    border-top: 0 1px solid #B3B3B3;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.ui-dropdownchecklist {
+	font-size: 10;
+	color: black;
+}
+.ui-dropdownchecklist-selector {
+	height: 20px;
+	border: 1px solid #ddd;
+	background: #fff;
+}
+.ui-state-hover, .ui-state-active {
+	border-color: #5794bf;
+}
+.ui-dropdownchecklist-dropcontainer {
+	background-color: #fff;
+	border: 1px solid #999;
+}
+.ui-dropdownchecklist-item {
+}
+.ui-state-hover {
+	background-color: #39f;
+}
+.ui-state-disabled label {
+	color: #ccc;
+}
+.ui-dropdownchecklist-group {
+	font-weight: bold;
+	font-style: italic;
+}
+.ui-dropdownchecklist-indent {
+	padding-left: 7px;
+}
+/* Font size of 0 on the -selector and an explicit medium on -text required to eliminate
+   descender problems within the containers and still have a valid size for the text */
+.ui-dropdownchecklist-selector-wrapper {
+	vertical-align: middle;
+	font-size: 0px;
+}
+.ui-dropdownchecklist-selector {
+	padding: 1px 2px 2px 2px;
+	font-size: 0px;
+}
+.ui-dropdownchecklist-text {
+	font-size: medium;
+	/* line-height: 20px; */
+}
+.ui-dropdownchecklist-group {
+	padding: 1px 2px 2px 2px;
+}
+
+

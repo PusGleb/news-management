@@ -1,0 +1,41 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-3.0.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <context:annotation-config />
+
+    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url" value="jdbc:oracle:thin:@localhost:1521:orcl"/>
+        <property name="username" value="NEWS_MANAGEMENT_TEST"/>
+        <property name="password" value="NEWS_MANAGEMENT_TEST"/>
+    </bean>
+
+    <bean class="com.epam.dao.impl.AbstractDAO" id="abstractDAO">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean class="com.epam.dao.impl.NewsDAOImpl" id="newsDAO" parent="abstractDAO">
+        <property name="commentDAO" ref="commentDAO"/>
+        <property name="authorDAO" ref="authorDAO"/>
+        <property name="searchUtils" ref="searchUtils"/>
+    </bean>
+
+    <bean class="com.epam.dao.impl.AuthorDAOImpl" id="authorDAO" parent="abstractDAO"/>
+
+    <bean class="com.epam.dao.impl.CommentDAOImpl" id="commentDAO" parent="abstractDAO"/>
+
+    <bean class="com.epam.dao.impl.TagDAOImpl" id="tagDAO" parent="abstractDAO"/>
+
+    <bean class="com.epam.dao.search.SearchUtils" id="searchUtils"/>
+
+</beans>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <tag tag_id="2" tag_name="footbal"/>
+    <tag tag_id="1" tag_name="news"/>
+
+    <news news_id="2" title="title" short_text="short_text" full_text="full_text2"/>
+
+    <author author_id="1" author_name="Jhon" expired="2012-12-21 22:22:22"/>
+
+    <comments comment_id="2" news_id="2" comment_text="comment" creation_date="2012-12-21 22:22:22"/>
+
+    <news_author news_id="2" author_id="1"/>
+
+    <news_tag news_id="2" tag_id="1"/>
+    <news_tag news_id="2" tag_id="2"/>
+</dataset>

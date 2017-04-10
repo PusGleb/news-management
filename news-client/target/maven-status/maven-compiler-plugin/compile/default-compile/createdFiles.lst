@@ -1,0 +1,14 @@
+com\epam\command\Command.class
+com\epam\command\FilterCommand.class
+com\epam\command\ResetCommand.class
+com\epam\service\CommandService.class
+com\epam\command\GoToNextOrPreviousNewsCommand.class
+com\epam\manager\CommandManager.class
+com\epam\command\AddCommentCommand.class
+com\epam\Main.class
+com\epam\constant\Constant.class
+com\epam\manager\ConfigurationManager.class
+com\epam\controller\Controller.class
+com\epam\command\NewsListCommand.class
+com\epam\command\NewsViewCommand.class
+com\epam\command\LocaleCommand.class

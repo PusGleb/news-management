@@ -1,0 +1,14 @@
+D:\LABA\NewsManeg\news-management\news-client\src\main\java\com\epam\command\NewsViewCommand.java
+D:\LABA\NewsManeg\news-management\news-client\src\main\java\com\epam\command\AddCommentCommand.java
+D:\LABA\NewsManeg\news-management\news-client\src\main\java\com\epam\command\FilterCommand.java
+D:\LABA\NewsManeg\news-management\news-client\src\main\java\com\epam\constant\Constant.java
+D:\LABA\NewsManeg\news-management\news-client\src\main\java\com\epam\Main.java
+D:\LABA\NewsManeg\news-management\news-client\src\main\java\com\epam\command\Command.java
+D:\LABA\NewsManeg\news-management\news-client\src\main\java\com\epam\controller\Controller.java
+D:\LABA\NewsManeg\news-management\news-client\src\main\java\com\epam\service\CommandService.java
+D:\LABA\NewsManeg\news-management\news-client\src\main\java\com\epam\command\GoToNextOrPreviousNewsCommand.java
+D:\LABA\NewsManeg\news-management\news-client\src\main\java\com\epam\manager\CommandManager.java
+D:\LABA\NewsManeg\news-management\news-client\src\main\java\com\epam\command\NewsListCommand.java
+D:\LABA\NewsManeg\news-management\news-client\src\main\java\com\epam\manager\ConfigurationManager.java
+D:\LABA\NewsManeg\news-management\news-client\src\main\java\com\epam\command\LocaleCommand.java
+D:\LABA\NewsManeg\news-management\news-client\src\main\java\com\epam\command\ResetCommand.java

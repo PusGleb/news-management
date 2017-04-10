@@ -1,0 +1,109 @@
+
+.fullText {
+	clear:both;
+	float:left;
+	margin-left: 50px;
+    color:#292323;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.commentText {
+    clear:both;
+	float:left;
+	margin-left: 50px;
+    color:#292323;
+    width: 605px;
+    background: #E6E6E6;
+    height: 40px;
+}
+
+.deleteComment {
+    float:right;
+    margin-top: 2px;
+}
+
+a.one:link, a.one:visited {
+    color: black;
+    text-decoration:none;
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:0 1px;
+    padding-bottom:0 1px;
+    text-align: center;
+    background-color: #F5F5F5;
+    border: 2px outset #ddd;
+    font-size:16px;
+}
+a.one:hover {
+    font-size:20px;
+
+}
+
+.commentData {
+    clear:both;
+	float:left;
+	margin-left: 50px;
+    color:#292323;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.back {
+    clear:both;
+    margin-top: 5px;
+    float:left;
+    margin-left: 5px;
+}
+
+.viewNewTitle{
+    clear:both;
+	float:left;
+    color:#292323;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size:20px;
+    font-weight:600;
+}
+
+.commentForm {
+    clear:both;
+    float:left;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.submitWrapper{
+    clear:both;
+    float:top;
+	margin-left: 451px;
+	margin-top: 10px;
+}
+
+input[type=submit] {
+    padding:10px 20px;
+    background:#F5F5F5;
+    border: 3px outset #ddd;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.previous {
+   clear:right;
+   position: absolute;
+   bottom: 100px;
+   left: 20px;
+}
+
+.next {
+    clear:right;
+    position: absolute;
+    bottom: 100px;
+    right: 20px;
+}
+
+
+
+
+
