@@ -9,6 +9,7 @@ import org.dbunit.dataset.IDataSet;
 import org.dbunit.dataset.ITable;
 import org.dbunit.dataset.xml.FlatXmlDataSet;
 import org.dbunit.dataset.xml.FlatXmlDataSetBuilder;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.FileInputStream;
@@ -18,6 +19,8 @@ import java.util.List;
 /**
  * Created by Hleb_Pus on 11/23/2015.
  */
+
+@Ignore
 public class NewsDAOTest extends AbstractTest {
 
     private NewsDAO newsDAO = (NewsDAO) context.getBean("newsDAO");

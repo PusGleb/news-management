@@ -6,6 +6,7 @@ import org.dbunit.database.IDatabaseConnection;
 import org.dbunit.dataset.IDataSet;
 import org.dbunit.dataset.xml.FlatXmlDataSet;
 import org.dbunit.dataset.xml.FlatXmlDataSetBuilder;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -17,6 +18,8 @@ import java.sql.Connection;
 /**
  * Created by Hleb_Pus on 11/23/2015.
  */
+
+@Ignore
 public class AbstractTest extends DatabaseTestCase {
 
     protected ApplicationContext context = new ClassPathXmlApplicationContext("testContext.xml");

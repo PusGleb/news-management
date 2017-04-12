@@ -7,6 +7,7 @@ import org.dbunit.dataset.IDataSet;
 import org.dbunit.dataset.ITable;
 import org.dbunit.dataset.xml.FlatXmlDataSet;
 import org.dbunit.dataset.xml.FlatXmlDataSetBuilder;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.FileInputStream;
@@ -15,6 +16,7 @@ import java.sql.Timestamp;
 /**
  * Created by Hleb_Pus on 11/23/2015.
  */
+@Ignore
 public class CommentDAOTest extends AbstractTest {
 
     private CommentDAO commentDAO = (CommentDAO) context.getBean("commentDAO");

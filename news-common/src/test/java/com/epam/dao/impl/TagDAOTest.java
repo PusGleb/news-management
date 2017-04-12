@@ -5,6 +5,7 @@ import com.epam.entity.Tag;
 import org.dbunit.dataset.IDataSet;
 import org.dbunit.dataset.ITable;
 import org.dbunit.dataset.xml.FlatXmlDataSetBuilder;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -13,6 +14,8 @@ import java.io.FileInputStream;
 /**
  * Created by Hleb_Pus on 11/23/2015.
  */
+
+@Ignore
 public class TagDAOTest extends AbstractTest {
 
     //@Autowired
